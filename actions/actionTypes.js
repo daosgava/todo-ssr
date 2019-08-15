@@ -1,0 +1,8 @@
+export const actionTypes = {
+    ADD_TODO: 'ADD_TODO',
+    ADD_TODO_ASYNC: 'ADD_TODO_ASYNC',
+    LOAD_DATA: 'LOAD_DATA',
+    LOAD_DATA_ASYNC: 'LOAD_DATA_ASYNC',
+    COMPLETE_TODO: 'COMPLETE_TODO',
+    FAILURE: 'FAILURE'
+}
