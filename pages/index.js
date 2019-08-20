@@ -7,17 +7,17 @@ import styled from 'styled-components';
 const MainContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4,auto);
-  justify-items:stretch;
+  grid-template-rows: repeat(4, auto);
+  justify-items: stretch;
 `;
 
-const Index = ()=>(
+const Index = () => (
   <>
     <MainContainer>
       <MyTitle />
       <AddTodo />
       <TodoList />
-    </MainContainer> 
+    </MainContainer>
   </>
 );
 
